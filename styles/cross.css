@@ -1,0 +1,27 @@
+/* Cross */
+.close {
+    position: absolute;
+    left: 95%;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+    top: calc(50% - 16px);
+
+  }
+  .close:hover {
+    opacity: 0.7;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #000;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }

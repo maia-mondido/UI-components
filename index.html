@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Components</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="mx-5">
+        <!-- Notification blue -->
+
+        <div class="row notification-blue col-lg-12 mx-auto">
+            <div class=" col-lg-11">
+                Lorem ipsum dolor sit amet. <a href="#">Action</a>
+            </div>
+            <a href="#" class="close"></a>
+        </div>
+        <div class="row notification-blue col-lg-12 mx-auto">
+            <div class=" col-lg-11">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#">Action</a>
+            </div>
+            <a href="#" class="close"></a>
+        </div>
+        <!-- Notification yellow -->
+        <div class="row notification-yellow col-lg-12 mx-auto">
+            <div class=" col-lg-11">
+                Lorem ipsum dolor sit amet. <a href="#">Action</a>
+            </div>
+            <a href="#" class="close"></a>
+        </div>
+        <div class="row notification-yellow col-lg-12 mx-auto">
+            <div class=" col-lg-11">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="#">Action</a>
+            </div>
+            <a href="#" class="close"></a>
+        </div>
+        <!-- Notification half -->
+        <div class="row col-lg-10">
+            <div class="row notification-blue-half col-lg-4">
+                <div>
+                    Lorem ipsum dolor sit amet. <a href="#">Action</a>
+                </div>
+                <a href="#" class="close-half"></a>
+            </div>
+            <div class="row notification-yellow-half col-lg-4">
+                <div>
+                    Lorem ipsum dolor sit amet. <a href="#">Action</a>
+                </div>
+                <a href="#" class="close-half"></a>
+            </div>
+        </div>
+        <!-- Notification half more text -->
+        <div class="row col-lg-10">
+            <div class="row notification-blue-half col-lg-4 ">
+                <div >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#">Action</a>
+                </div>
+                <a href="#" class="close-half-high"></a>
+            </div>
+            <div class="row notification-yellow-half col-lg-4">
+                <div >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#">Action</a>
+                </div>
+                <a href="#" class="close-half-high"></a>
+            </div>
+        </div>
+
+        <!-- Dropdown -->
+
+        <div class="row col-lg-12">
+
+            <div class="row col-lg-3 mr-1">
+                <div class="dropdown">
+                    <span class="focus">Select 
+                        <i class="fa fa-chevron-down down"></i>
+                    </span>
+                </div>                    
+            </div>
+
+            <div class="row col-lg-3 mr-1">
+                <div class="dropdown">
+                    <span>Select 
+                        <i class="fa fa-chevron-down hover down"></i>
+                    </span>
+                </div>                    
+            </div>
+
+            <div class="row col-lg-3 mr-1">
+                <div class="dropdown">
+                    <span>Select <i class="fa fa-chevron-down down"></i>
+                        <i class="fa fa-chevron-up up"></i></span>
+                    <ul>
+                        <li><a href="#">Option 1</a></li>
+                        <li><a href="#">Option 2</a></li>
+                        <li><a href="#">Option 3</a></li>
+                        <li><a href="#">Option 4</a></li>
+                    </ul>
+                </div>                
+            </div>
+            <div class="row col-lg-3 mr-1">
+                <div class="dropdown dropdown-disabled">
+                    <span>Select 
+                        <i class="fa fa-chevron-down fa-disabled down"></i>
+                    </span>
+                </div>                    
+            </div>
+        </div>
+
+
+        <!-- Input fields -->
+
+        <div class="row col-lg-12">
+
+            <div class="form-group col-lg-3">
+                <label htmlFor="amount"><small>Field name</small></label>
+                <input type="number" class="form-control" placeholder="Text" required/>
+            </div>
+
+            <div class="form-group col-lg-3">
+                <label class="disabled-text" htmlFor="amount"><small>Field name</small></label>
+                <input type="number" class="form-control disabled-field" required disabled/>
+            </div>
+
+            <div class="form-group col-lg-3">
+                <label class="focus-text" htmlFor="amount"><small>Field name</small></label>
+                <input type="number" class="form-control focus-field" placeholder="Text" required/>
+            </div>
+
+            <div class="form-group col-lg-3">
+                <label class="error-text" htmlFor="amount"><small>Field name</small></label>
+                <input type="number" class="form-control error-field" placeholder="Text" required/>
+                <small class="error-text">Error message</small>
+            </div>
+
+            <div class="form-group col-lg-3">
+                <label htmlFor="amount"><small>Field name</small></label>
+                <input type="number" class="form-control" placeholder="Text" required/>
+                <small class="length-count">0/20</small>
+            </div>
+
+            <div class="form-group col-lg-3">
+                <small class="length-count">Optional</small>
+                <label htmlFor="amount"><small>Field name</small></label>
+                <input type="number" class="form-control" placeholder="Text" required/>
+            </div>
+
+            <div class="form-group col-lg-3">
+                <label htmlFor="amount"><small>Field name</small></label>
+                <textarea rows="4" cols="50" class="form-control textarea" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit" required></textarea>
+                <small class="length-count">0/220</small>
+            </div>
+        </div>
+
+        <!-- Custom checkbox & radio button -->
+
+        <div class="row col-lg-10">
+            <div class="form-group mx-1">
+                <label class="custom-checkbox">
+                    <input type="checkbox" checked="checked">I agree to the Terms and Conditions
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class="form-group">
+                <label class="radio-button">
+                    <input type="radio" name="paymentMethod" class="radio-border" value="monthly" />
+                    <span class="custom-radio"></span>
+                    Every day in month
+                </label>
+            </div>
+        </div>
+
+        <!-- Circled icons & steps -->
+
+
+        <div class="row col-lg-10">
+            <div class="circle"><span class="inner-content">3</span></div>
+            <div class="circle-dark"><span class="inner-content-dark">3</span></div>
+            <div class="circle"><span class="inner-content-hover">3</span></div>
+
+            <div class="checkmark-circle my-2 ml-5">
+                <div class="background"></div>
+                <div class="checkmark draw"></div>
+            </div>
+            <div class="step-linker"></div>
+            <div class="circle-dark mx-0"><span class="inner-content-dark">2</span></div>
+            <div class="step-linker"></div>
+
+            <div class="circle mx-0"><span class="inner-content">3</span></div>
+            <div class="step-linker"></div>
+
+            <div class="circle mx-0"><span class="inner-content">4</span></div>
+            <div class="step-linker"></div>
+
+            <div class="circle mx-0"><span class="inner-content">5</span></div>
+            <div class="step-linker"></div>
+
+            <div class="circle mx-0"><span class="inner-content">6</span></div>
+           
+        </div>
+        <div class="row col-lg-10">
+           
+            <div class="checkmark-circle my-2 mx-2">
+                <div class="background"></div>
+                <div class="checkmark draw"></div>
+            </div>
+            <div class="checkmark-circle my-2 mx-3">
+                <div class="background-hover"></div>
+                <div class="checkmark draw"></div>
+            </div>
+        </div>
+
+        <!-- Slider -->
+
+        <div class="row col-lg-10 my-3">
+            <div class="slider-light-bg slider-blue mr-4">
+                <input class="light-bg" type="range" min="0" max="100" value="0">
+            </div>
+            <div class="slider-dark-bg slider-blue">
+                <input class="dark-bg" type="range" min="0" max="100" value="0">
+            </div>
+        </div>
+
+        <div class="row col-lg-10 my-3">
+            <div class="slider-light-bg slider-rainbow mr-4">
+                <input class="light-bg rainbow" type="range" min="0" max="100" value="0">
+            </div>
+            <div class="slider-dark-bg slider-rainbow">
+                <input class="dark-bg rainbow" type="range" min="0" max="100" value="0">
+            </div>
+        </div>
+        
+
+        <!-- <div class="row col-lg-10 my-3">
+            <nav aria-label="breadcrumb ">
+                <span class="breadcrumb-item ml-2">Merchant name </span>
+                    <span class="container-left"><span class="triangle-left"></span></span>
+                <span class="breadcrumb-item">Dashboard</span>
+            </nav>
+        </div> -->
+    </div>
+</body>
+</html>

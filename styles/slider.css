@@ -13,7 +13,6 @@ input[type="range"]{
     border-radius: 50%;
     background: #00005E;
     cursor: pointer;
-    margin-top: -14px; 
   }
   
   /*Firefox */
@@ -55,7 +54,6 @@ input[type="range"]{
     border-radius: 50%;
     background: #fff;
     cursor: pointer;
-    margin-top: -14px; 
   }
   
 .dark-bg::-moz-range-thumb {

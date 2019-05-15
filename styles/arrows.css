@@ -28,8 +28,8 @@
     width: 9px;
     height: 9px;
     position: relative;
-    top: 12px;
-    right: 20px;
+    top: 6px;
+    right: -6px;
 
   }
   
@@ -46,6 +46,12 @@
     -ms-transform: rotate(-45deg);
     border-right: 1px solid #fff;
     border-bottom: 1px solid #fff;
+  }
+
+  .breadcrumb {
+    background: #000;
+    color: #fff;
+    border-radius: 0;
   }
 
   

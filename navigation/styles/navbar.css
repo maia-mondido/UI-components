@@ -1,0 +1,83 @@
+.navbar-blue {
+    font-family: 'Nordea Sans Small Web Light', Fallback, sans-serif;
+    background: #00075A;
+    margin: 0;
+    padding: 5px 0;
+    height: 50px;
+    font-size: 18px;
+}
+
+.navbar-blue a {
+    color: #fff;
+
+}
+
+.merchant-name {
+  font-size: 14px;
+  font-weight: 100;
+  color: #fff;
+
+}
+
+.navbar-gray {
+    font-family: 'Nordea Sans Small Web Light', Fallback, sans-serif;
+    background: #E3E3E3;
+    margin: 0;
+    padding: 5px 0;
+    height: 48px;
+}
+
+.navbar-gray a {
+    color: #0000A0;
+
+}
+
+.navbar-gray a:active {
+    border-bottom: 4px solid #83B8ED;
+
+}
+
+.main {
+    background-image: url('../imgs/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin: 0;
+
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav {
+    margin-left: 15px;
+}
+
+.nav-content-tab {
+    width: 100%;
+    
+}
+
+.nav-content-tab li {
+    width: 50%;
+    text-align: center;
+
+}
+
+.nav-link-content-tab {
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.nav-link:active, .active {
+    border-bottom: 4px solid #83B8ED;
+}
+
+.card {
+    border-radius: 8px;
+    height: 250px;
+}
+
+.card-title {
+    padding: 4px 0 24px;
+}

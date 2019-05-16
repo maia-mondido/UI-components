@@ -1,0 +1,54 @@
+/* Cross */
+.close-light {
+    position: absolute;
+    left: 95%;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+    top: 4px;
+
+  }
+  .close-light:hover {
+    opacity: 0.7;
+  }
+  .close-light:before, .close-light:after {
+    position: absolute;
+    left: -8px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #fff;
+  }
+  .close-light:before {
+    transform: rotate(45deg);
+  }
+  .close-light:after {
+    transform: rotate(-45deg);
+  }
+
+  .close-dark {
+    position: absolute;
+    left: 95%;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+    top: 4px;
+
+  }
+  .close-dark:hover {
+    opacity: 0.7;
+  }
+  .close-dark:before, .close-dark:after {
+    position: absolute;
+    left: -8px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #00005E;
+  }
+  .close-dark:before {
+    transform: rotate(45deg);
+  }
+  .close-dark:after {
+    transform: rotate(-45deg);
+  }

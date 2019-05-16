@@ -1,0 +1,10 @@
+.notification-yellow-half {
+    background: #FFE183;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    padding: 10px 24px;
+    margin: 16px 16px 16px 0;
+    font-size: 14px;
+
+}

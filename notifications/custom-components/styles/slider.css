@@ -1,0 +1,81 @@
+/* Light background */
+input[type="range"]{
+    height: 4px;
+    background: #DCEDFF;
+    border-radius: 3px;
+}
+
+.light-bg::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #00005E;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #00005E;
+    cursor: pointer;
+  }
+  
+  /*Firefox */
+  .light-bg::-moz-range-thumb {
+    border: 1px solid #00005E;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #00005E;
+    cursor: pointer;
+  }
+
+  /* IE */
+.light-bg::-ms-thumb {
+    border: 1px solid #00005E;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #00005E;
+    cursor: pointer;
+  }
+
+  /* input[type="range"]:active{
+    height: 4px;
+    background: #00005E;
+} */
+
+.slider-dark-bg {
+    background: #F4F2F1;
+    padding: 10px 30px;
+}
+
+.dark-bg::-webkit-slider-thumb {
+    border: 1px solid #fff;
+
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+.dark-bg::-moz-range-thumb {
+    border: 1px solid #fff;
+
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+  }
+
+.dark-bg::-ms-thumb {
+    border: 1px solid #fff;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+  }
+
+  
+  input[type="range"].rainbow {
+    background: linear-gradient(to right, green , yellow, orange,  red);
+}

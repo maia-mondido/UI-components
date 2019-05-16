@@ -1,0 +1,120 @@
+/* Circled icon */
+    
+.inner-content {
+    border: 1px solid #0000a0;
+    height: 5px; 
+    background: #fff;
+    cursor: pointer;     
+    width: 10px;
+    padding: 4px 10px;
+    border-radius: 50%;
+}
+
+.circle {
+  color: #0000a0;
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+  margin: 10px;
+  width: 32px;
+  height: 24px;
+  
+}
+
+.circle-dark {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    margin: 10px;
+    width: 32px;
+    height: 24px;
+    
+}
+
+.inner-content-dark {
+    border: 1px solid #0000a0;
+    height: 5px; 
+    background: #0000a0;
+    cursor: pointer;     
+    width: 10px;
+    padding: 4px 10px;
+    border-radius: 50%;
+}
+
+.inner-content:hover {
+    background-color: #DCEDFF;
+}
+
+.inner-content-hover {
+    border: 1px solid #0000a0;
+    height: 5px; 
+    background: #DCEDFF;
+    cursor: pointer;     
+    width: 10px;
+    padding: 4px 10px;
+    border-radius: 50%;
+}
+
+
+.checkmark-circle {
+    width: 30px;
+    height: 31px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .checkmark-circle .background {
+    width: 30px;
+    height: 31px;
+    border-radius: 50%;
+    border: 1px solid #0D8268;
+    background: #fff;
+    position: absolute;
+  }
+
+  .checkmark-circle .checkmark.draw:after {
+    -webkit-transform: scaleX(-1) rotate(135deg);
+    -moz-transform: scaleX(-1) rotate(135deg);
+    -ms-transform: scaleX(-1) rotate(135deg);
+    -o-transform: scaleX(-1) rotate(135deg);
+    transform: scaleX(-1) rotate(135deg);
+   
+  }
+  .checkmark-circle .checkmark:after {
+    opacity: 1;
+    height: 18px;
+    width: 10px;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    -o-transform-origin: left top;
+    transform-origin: left top;
+    border-right: 2px solid #0D8268;
+    border-top: 2px solid #0D8268;
+    content: '';
+    top: 16px;
+    left: 5px;
+    position: absolute;
+  }
+  
+  .checkmark-circle .background:hover {
+    background: #F4F2F1;
+  }
+
+  .checkmark-circle .background-hover{
+    background: #F4F2F1;
+    border: 1px solid #0D8268;
+    width: 30px;
+    height: 31px;
+    border-radius: 50%;
+  }
+  
+
+.step-linker {
+  height: 1px;
+  width: 40px;
+  background: #ccc;
+  position: relative;
+  top: 22px;
+}

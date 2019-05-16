@@ -1,0 +1,70 @@
+.btn-cancel {
+    background: #fff;
+    color:#00075A;
+    border-radius: 40px;
+    border: none;
+    margin: 10px;
+    padding: 8px 30px;
+    position: relative;
+    top: calc(100% - 48px);
+}
+
+.btn-cancel:hover {
+    background: #e5f2ff;
+    color: #8DB8E8;
+    cursor: pointer;     
+
+}
+  
+.btn-cancel:disabled {
+    background: #B2B3CC;
+    color: #E8E8EF;
+}
+
+
+.btn-submit {
+    background: #00075A;
+    color:#fff;
+    border-radius: 40px;
+    border: none;
+    margin: 10px;
+    padding: 8px 30px;
+    position: relative;
+    top: calc(100% - 48px);
+}
+
+.btn-submit:hover {
+    background: #e5f2ff;
+    color: #8DB8E8;
+    cursor: pointer;     
+
+}
+  
+.btn-submit:disabled {
+    background: #B2B3CC;
+    color: #E8E8EF;
+}
+
+
+.btn-goback {
+    background: #00075A;
+    color:#fff;
+    border-radius: 40px;
+    border: none;
+    margin: 5px 10px;
+    padding: 8px 55px;
+    position: relative;
+    top: calc(100% - 48px);
+}
+
+.btn-goback:hover {
+    background: #e5f2ff;
+    color: #8DB8E8;
+    cursor: pointer;     
+
+}
+  
+.btn-goback:disabled {
+    background: #B2B3CC;
+    color: #E8E8EF;
+}

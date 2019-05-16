@@ -1,0 +1,42 @@
+
+.error-field {
+    border-radius:  2px;
+    border: 1px solid #FC6161;
+    height: 40px;
+
+}
+
+.error-text {
+    color: #FC6161;
+}
+
+input[type="number"]:disabled, input[type="text"]:disabled, textarea:disabled {
+    background: #F3F3F3;
+
+}
+
+input[type="number"]:focus, input[type="text"]:focus, textarea:focus {
+    border: 1px solid #0000A0;
+
+}
+
+.disabled-text {
+    color: #8B8A8D;
+}
+
+.length-count {
+    float: right;
+    color: #8B8A8D;
+}
+
+.focus-text {
+    color:#0000A0;
+}
+
+.focus-field {
+    border: 1px solid #0000A0;
+}
+
+.textarea {
+    border-radius:  2px;
+}

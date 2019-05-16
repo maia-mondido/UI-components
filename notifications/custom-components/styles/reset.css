@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=text], input[type=number] {
+    border-radius:  2px;
+    outline: none;
+    height: 40px;
+
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border: none;
+}
+
+input[type=range] {
+    -webkit-appearance: none; 
+    width: 100%; 
+    background: transparent; 
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  }
+  
+  input[type=range]:focus {
+    outline: none; 
+  }
+  
+  input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent; 
+    border-color: transparent;
+    color: transparent;
+  }
+
+  textarea {
+    outline: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+
+  
